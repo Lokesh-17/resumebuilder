@@ -1,0 +1,57 @@
+{
+  "templateId": "modern",
+  "contact": {
+    "fullName": "Lokesh raju",
+    "title": "Data Analyst",
+    "email": "lokesh.raju_2026@woxsen.edu.in",
+    "phone": "8074152710",
+    "city": "Hyderabad",
+    "website": "",
+    "linkedin": "",
+    "github": ""
+  },
+  "summary": "I’ve drafted a complete PowerPoint presentation outline for your topic \"Cloud Cost Overruns Due to Unused or Underutilized Resources\" with Woxsen University branding in mind.\nThe slides are already structured in a way that you can directly create them in PowerPoint — adding your university logo on each slide’s corner.",
+  "experience": [
+    {
+      "id": "k7mqyza43",
+      "role": "software engineer",
+      "company": "affordmed",
+      "startDate": "",
+      "endDate": "",
+      "current": true,
+      "description": [
+        "Impact",
+        "Cost Savings: Potential 20–40% reduction in monthly cloud bills.",
+        "Better Resource Utilization: No paying for what you don’t need."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "sb0a3soco",
+      "degree": "",
+      "institution": "",
+      "year": "",
+      "score": ""
+    }
+  ],
+  "skills": [
+    {
+      "id": "g63fudhxm",
+      "name": "javascript",
+      "proficiency": "Advanced"
+    }
+  ],
+  "projects": [
+    {
+      "id": "f0sec44aj",
+      "name": "",
+      "link": "",
+      "description": "",
+      "stack": []
+    }
+  ],
+  "certifications": [],
+  "achievements": [],
+  "interests": []
+}
