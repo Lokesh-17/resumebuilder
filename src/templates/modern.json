@@ -1,0 +1,231 @@
+{
+  "id": "modern",
+  "name": "Modern",
+  "accentColor": "#3b82f6",
+  "fontPrefs": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "sections": [
+    {
+      "key": "contact",
+      "label": "Contact Information",
+      "required": true,
+      "repeatable": false,
+      "fields": [
+        {
+          "key": "fullName",
+          "label": "Full Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "John Doe"
+        },
+        {
+          "key": "title",
+          "label": "Professional Title",
+          "type": "text",
+          "required": true,
+          "placeholder": "Software Engineer"
+        },
+        {
+          "key": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "john@example.com"
+        },
+        {
+          "key": "phone",
+          "label": "Phone",
+          "type": "phone",
+          "required": true,
+          "placeholder": "+1 (555) 123-4567"
+        },
+        {
+          "key": "city",
+          "label": "City",
+          "type": "text",
+          "required": false,
+          "placeholder": "New York, NY"
+        },
+        {
+          "key": "website",
+          "label": "Website",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://johndoe.com"
+        },
+        {
+          "key": "linkedin",
+          "label": "LinkedIn",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://linkedin.com/in/johndoe"
+        },
+        {
+          "key": "github",
+          "label": "GitHub",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://github.com/johndoe"
+        }
+      ]
+    },
+    {
+      "key": "summary",
+      "label": "Professional Summary",
+      "required": true,
+      "repeatable": false,
+      "fields": [
+        {
+          "key": "summary",
+          "label": "Summary",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Brief professional summary highlighting your key skills and experience..."
+        }
+      ]
+    },
+    {
+      "key": "experience",
+      "label": "Work Experience",
+      "required": true,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "role",
+          "label": "Job Title",
+          "type": "text",
+          "required": true,
+          "placeholder": "Senior Software Engineer"
+        },
+        {
+          "key": "company",
+          "label": "Company",
+          "type": "text",
+          "required": true,
+          "placeholder": "Tech Corp"
+        },
+        {
+          "key": "startDate",
+          "label": "Start Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "endDate",
+          "label": "End Date",
+          "type": "date",
+          "required": false
+        },
+        {
+          "key": "current",
+          "label": "Current Position",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "description",
+          "label": "Job Description",
+          "type": "list",
+          "required": true,
+          "placeholder": "• Developed and maintained web applications..."
+        }
+      ]
+    },
+    {
+      "key": "skills",
+      "label": "Skills",
+      "required": true,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "name",
+          "label": "Skill",
+          "type": "text",
+          "required": true,
+          "placeholder": "JavaScript"
+        },
+        {
+          "key": "proficiency",
+          "label": "Proficiency",
+          "type": "text",
+          "required": false,
+          "placeholder": "Advanced"
+        }
+      ]
+    },
+    {
+      "key": "education",
+      "label": "Education",
+      "required": false,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "degree",
+          "label": "Degree",
+          "type": "text",
+          "required": true,
+          "placeholder": "Bachelor of Science in Computer Science"
+        },
+        {
+          "key": "institution",
+          "label": "Institution",
+          "type": "text",
+          "required": true,
+          "placeholder": "University of Technology"
+        },
+        {
+          "key": "year",
+          "label": "Year",
+          "type": "text",
+          "required": true,
+          "placeholder": "2020"
+        },
+        {
+          "key": "score",
+          "label": "GPA/Score",
+          "type": "text",
+          "required": false,
+          "placeholder": "3.8/4.0"
+        }
+      ]
+    },
+    {
+      "key": "projects",
+      "label": "Projects",
+      "required": false,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "name",
+          "label": "Project Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "E-commerce Platform"
+        },
+        {
+          "key": "link",
+          "label": "Project Link",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://github.com/johndoe/project"
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Built a full-stack e-commerce platform using React and Node.js..."
+        },
+        {
+          "key": "stack",
+          "label": "Tech Stack",
+          "type": "list",
+          "required": false,
+          "placeholder": "React, Node.js, MongoDB"
+        }
+      ]
+    }
+  ]
+}

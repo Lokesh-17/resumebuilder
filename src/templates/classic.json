@@ -1,0 +1,196 @@
+{
+  "id": "classic",
+  "name": "Classic",
+  "accentColor": "#1f2937",
+  "fontPrefs": {
+    "heading": "Georgia",
+    "body": "Georgia"
+  },
+  "sections": [
+    {
+      "key": "contact",
+      "label": "Contact Information",
+      "required": true,
+      "repeatable": false,
+      "fields": [
+        {
+          "key": "fullName",
+          "label": "Full Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "John Doe"
+        },
+        {
+          "key": "title",
+          "label": "Professional Title",
+          "type": "text",
+          "required": true,
+          "placeholder": "Software Engineer"
+        },
+        {
+          "key": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "john@example.com"
+        },
+        {
+          "key": "phone",
+          "label": "Phone",
+          "type": "phone",
+          "required": true,
+          "placeholder": "+1 (555) 123-4567"
+        },
+        {
+          "key": "city",
+          "label": "City",
+          "type": "text",
+          "required": true,
+          "placeholder": "New York, NY"
+        },
+        {
+          "key": "website",
+          "label": "Website",
+          "type": "url",
+          "required": false,
+          "placeholder": "https://johndoe.com"
+        }
+      ]
+    },
+    {
+      "key": "summary",
+      "label": "Objective",
+      "required": true,
+      "repeatable": false,
+      "fields": [
+        {
+          "key": "summary",
+          "label": "Career Objective",
+          "type": "textarea",
+          "required": true,
+          "placeholder": "Seeking a challenging position as a software engineer where I can utilize my skills..."
+        }
+      ]
+    },
+    {
+      "key": "education",
+      "label": "Education",
+      "required": true,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "degree",
+          "label": "Degree",
+          "type": "text",
+          "required": true,
+          "placeholder": "Bachelor of Science in Computer Science"
+        },
+        {
+          "key": "institution",
+          "label": "Institution",
+          "type": "text",
+          "required": true,
+          "placeholder": "University of Technology"
+        },
+        {
+          "key": "year",
+          "label": "Graduation Year",
+          "type": "text",
+          "required": true,
+          "placeholder": "2020"
+        },
+        {
+          "key": "score",
+          "label": "GPA",
+          "type": "text",
+          "required": false,
+          "placeholder": "3.8/4.0"
+        }
+      ]
+    },
+    {
+      "key": "experience",
+      "label": "Professional Experience",
+      "required": true,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "role",
+          "label": "Position",
+          "type": "text",
+          "required": true,
+          "placeholder": "Senior Software Engineer"
+        },
+        {
+          "key": "company",
+          "label": "Company",
+          "type": "text",
+          "required": true,
+          "placeholder": "Tech Corporation"
+        },
+        {
+          "key": "startDate",
+          "label": "Start Date",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "endDate",
+          "label": "End Date",
+          "type": "date",
+          "required": false
+        },
+        {
+          "key": "current",
+          "label": "Current Position",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "description",
+          "label": "Responsibilities",
+          "type": "list",
+          "required": true,
+          "placeholder": "• Managed a team of 5 developers..."
+        }
+      ]
+    },
+    {
+      "key": "skills",
+      "label": "Technical Skills",
+      "required": true,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "name",
+          "label": "Skill",
+          "type": "text",
+          "required": true,
+          "placeholder": "JavaScript"
+        },
+        {
+          "key": "proficiency",
+          "label": "Level",
+          "type": "text",
+          "required": true,
+          "placeholder": "Expert"
+        }
+      ]
+    },
+    {
+      "key": "certifications",
+      "label": "Certifications",
+      "required": false,
+      "repeatable": false,
+      "fields": [
+        {
+          "key": "certifications",
+          "label": "Certifications",
+          "type": "list",
+          "required": false,
+          "placeholder": "AWS Certified Solutions Architect"
+        }
+      ]
+    }
+  ]
+}

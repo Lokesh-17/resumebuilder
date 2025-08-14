@@ -1,0 +1,139 @@
+{
+  "templateId": "modern",
+  "contact": {
+    "fullName": "Sarah Johnson",
+    "title": "Senior Software Engineer",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1 (555) 123-4567",
+    "city": "San Francisco, CA",
+    "website": "https://sarahjohnson.dev",
+    "linkedin": "https://linkedin.com/in/sarahjohnson",
+    "github": "https://github.com/sarahjohnson"
+  },
+  "summary": "Passionate full-stack developer with 6+ years of experience building scalable web applications. Expertise in React, Node.js, and cloud technologies. Led multiple cross-functional teams to deliver high-impact products used by millions of users.",
+  "experience": [
+    {
+      "id": "exp1",
+      "role": "Senior Software Engineer",
+      "company": "TechCorp Inc.",
+      "startDate": "2022-01",
+      "endDate": "",
+      "current": true,
+      "description": [
+        "Led development of microservices architecture serving 5M+ daily users",
+        "Mentored 4 junior developers and established code review best practices",
+        "Reduced application load time by 40% through performance optimization",
+        "Implemented CI/CD pipelines reducing deployment time from 2 hours to 15 minutes"
+      ]
+    },
+    {
+      "id": "exp2",
+      "role": "Full Stack Developer",
+      "company": "StartupXYZ",
+      "startDate": "2020-03",
+      "endDate": "2021-12",
+      "current": false,
+      "description": [
+        "Built customer-facing dashboard using React, TypeScript, and Node.js",
+        "Designed and implemented RESTful APIs handling 100K+ requests daily",
+        "Collaborated with UX team to improve user engagement by 35%",
+        "Integrated third-party payment systems and analytics tools"
+      ]
+    },
+    {
+      "id": "exp3",
+      "role": "Software Developer",
+      "company": "WebSolutions LLC",
+      "startDate": "2018-06",
+      "endDate": "2020-02",
+      "current": false,
+      "description": [
+        "Developed responsive web applications using modern JavaScript frameworks",
+        "Maintained legacy systems and migrated them to modern tech stack",
+        "Participated in agile development process and sprint planning"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "id": "edu1",
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of California, Berkeley",
+      "year": "2014-2018",
+      "score": "3.8 GPA"
+    }
+  ],
+  "skills": [
+    {
+      "id": "skill1",
+      "name": "JavaScript/TypeScript",
+      "proficiency": "Advanced"
+    },
+    {
+      "id": "skill2",
+      "name": "React/Next.js",
+      "proficiency": "Advanced"
+    },
+    {
+      "id": "skill3",
+      "name": "Node.js/Express",
+      "proficiency": "Advanced"
+    },
+    {
+      "id": "skill4",
+      "name": "Python/Django",
+      "proficiency": "Intermediate"
+    },
+    {
+      "id": "skill5",
+      "name": "AWS/Docker",
+      "proficiency": "Intermediate"
+    },
+    {
+      "id": "skill6",
+      "name": "PostgreSQL/MongoDB",
+      "proficiency": "Intermediate"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj1",
+      "name": "E-commerce Platform",
+      "link": "https://github.com/sarahjohnson/ecommerce",
+      "description": "Full-stack e-commerce platform with payment integration, inventory management, and admin dashboard. Built with React, Node.js, and PostgreSQL.",
+      "stack": ["React", "Node.js", "PostgreSQL", "Stripe API", "AWS"]
+    },
+    {
+      "id": "proj2",
+      "name": "Task Management App",
+      "link": "https://taskmanager.sarahjohnson.dev",
+      "description": "Real-time collaborative task management application with drag-and-drop functionality and team collaboration features.",
+      "stack": ["Next.js", "Socket.io", "MongoDB", "Tailwind CSS"]
+    },
+    {
+      "id": "proj3",
+      "name": "Weather Analytics Dashboard",
+      "link": "https://github.com/sarahjohnson/weather-dashboard",
+      "description": "Interactive dashboard displaying weather patterns and analytics with data visualization and forecasting capabilities.",
+      "stack": ["React", "D3.js", "Python", "FastAPI", "Redis"]
+    }
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect",
+    "Google Cloud Professional Developer",
+    "Certified Kubernetes Administrator (CKA)"
+  ],
+  "achievements": [
+    "Employee of the Year 2023 at TechCorp Inc.",
+    "Led team that won company-wide hackathon for innovation",
+    "Speaker at React Conference 2023",
+    "Open source contributor with 500+ GitHub stars"
+  ],
+  "interests": [
+    "Open Source Development",
+    "Machine Learning",
+    "Rock Climbing",
+    "Photography",
+    "Mentoring"
+  ]
+}

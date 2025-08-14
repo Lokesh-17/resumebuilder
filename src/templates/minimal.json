@@ -1,0 +1,196 @@
+{
+  "id": "minimal",
+  "name": "Minimal",
+  "accentColor": "#6b7280",
+  "fontPrefs": {
+    "heading": "Inter",
+    "body": "Inter"
+  },
+  "sections": [
+    {
+      "key": "contact",
+      "label": "Contact",
+      "required": true,
+      "repeatable": false,
+      "fields": [
+        {
+          "key": "fullName",
+          "label": "Name",
+          "type": "text",
+          "required": true,
+          "placeholder": "John Doe"
+        },
+        {
+          "key": "email",
+          "label": "Email",
+          "type": "email",
+          "required": true,
+          "placeholder": "john@example.com"
+        },
+        {
+          "key": "phone",
+          "label": "Phone",
+          "type": "phone",
+          "required": false,
+          "placeholder": "+1 (555) 123-4567"
+        },
+        {
+          "key": "city",
+          "label": "Location",
+          "type": "text",
+          "required": false,
+          "placeholder": "New York, NY"
+        },
+        {
+          "key": "website",
+          "label": "Portfolio",
+          "type": "url",
+          "required": false,
+          "placeholder": "johndoe.com"
+        },
+        {
+          "key": "linkedin",
+          "label": "LinkedIn",
+          "type": "url",
+          "required": false,
+          "placeholder": "linkedin.com/in/johndoe"
+        }
+      ]
+    },
+    {
+      "key": "summary",
+      "label": "About",
+      "required": false,
+      "repeatable": false,
+      "fields": [
+        {
+          "key": "summary",
+          "label": "Brief Description",
+          "type": "textarea",
+          "required": false,
+          "placeholder": "A brief description of your background and expertise..."
+        }
+      ]
+    },
+    {
+      "key": "experience",
+      "label": "Experience",
+      "required": true,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "role",
+          "label": "Role",
+          "type": "text",
+          "required": true,
+          "placeholder": "Software Engineer"
+        },
+        {
+          "key": "company",
+          "label": "Company",
+          "type": "text",
+          "required": true,
+          "placeholder": "Tech Co"
+        },
+        {
+          "key": "startDate",
+          "label": "From",
+          "type": "date",
+          "required": true
+        },
+        {
+          "key": "endDate",
+          "label": "To",
+          "type": "date",
+          "required": false
+        },
+        {
+          "key": "current",
+          "label": "Current",
+          "type": "text",
+          "required": false
+        },
+        {
+          "key": "description",
+          "label": "Key Points",
+          "type": "list",
+          "required": false,
+          "placeholder": "• Built scalable web applications"
+        }
+      ]
+    },
+    {
+      "key": "skills",
+      "label": "Skills",
+      "required": true,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "name",
+          "label": "Skill",
+          "type": "text",
+          "required": true,
+          "placeholder": "React"
+        }
+      ]
+    },
+    {
+      "key": "education",
+      "label": "Education",
+      "required": false,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "degree",
+          "label": "Degree",
+          "type": "text",
+          "required": true,
+          "placeholder": "BS Computer Science"
+        },
+        {
+          "key": "institution",
+          "label": "School",
+          "type": "text",
+          "required": true,
+          "placeholder": "University"
+        },
+        {
+          "key": "year",
+          "label": "Year",
+          "type": "text",
+          "required": false,
+          "placeholder": "2020"
+        }
+      ]
+    },
+    {
+      "key": "projects",
+      "label": "Projects",
+      "required": false,
+      "repeatable": true,
+      "fields": [
+        {
+          "key": "name",
+          "label": "Project",
+          "type": "text",
+          "required": true,
+          "placeholder": "Portfolio Website"
+        },
+        {
+          "key": "link",
+          "label": "Link",
+          "type": "url",
+          "required": false,
+          "placeholder": "github.com/johndoe/project"
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "text",
+          "required": false,
+          "placeholder": "Personal portfolio built with React"
+        }
+      ]
+    }
+  ]
+}
