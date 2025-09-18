@@ -25,7 +25,6 @@ const EditPage: React.FC = () => {
   
   const {
     selectedTemplate,
-    currentSection,
     isDarkMode,
     toggleDarkMode,
     clearAllData,

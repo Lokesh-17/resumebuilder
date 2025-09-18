@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  resume-builder:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: resume-builder
+    restart: unless-stopped
+    ports:
+      - "8080:80"
+    volumes:
+      - ./resume.sample.json:/usr/share/nginx/html/resume.sample.json
+    environment:
+      - NODE_ENV=production

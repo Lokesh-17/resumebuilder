@@ -1,7 +1,7 @@
 import React from 'react';
-import { Plus, Trash2, GripVertical } from 'lucide-react';
+import { Plus, Trash2 } from 'lucide-react';
 import { useResumeStore } from '@/store/resumeStore';
-import { TemplateSpec, SectionSpec } from '@/types';
+import { TemplateSpec } from '@/types';
 
 interface DynamicFormProps {
   template: TemplateSpec;

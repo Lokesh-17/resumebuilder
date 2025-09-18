@@ -3,10 +3,10 @@ import { ResumeData } from '@/types';
 
 interface ClassicTemplateProps {
   data: ResumeData;
-  accentColor: string;
+  accentColor?: string;  // Marked as optional since it's not used
 }
 
-const ClassicTemplate: React.FC<ClassicTemplateProps> = ({ data, accentColor }) => {
+const ClassicTemplate: React.FC<ClassicTemplateProps> = ({ data }) => {
   const formatDate = (dateString: string) => {
     if (!dateString) return '';
     const date = new Date(dateString + '-01');
